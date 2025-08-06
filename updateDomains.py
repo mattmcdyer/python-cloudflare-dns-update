@@ -1,8 +1,8 @@
 import requests
 import json
 
-with open("config.json", "r") as config_file:
-    config = json.load(config_file)
+with open("configFile.json", "r") as configFile:
+    config = json.load(configFile)
     CLOUDFLARE_API_TOKEN = config["CLOUDFLARE_API_TOKEN"]
     CLOUDFLARE_API_BASE_URL = config["CLOUDFLARE_API_BASE_URL"]
 
